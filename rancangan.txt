@@ -6,7 +6,7 @@ Input
 Jumlah Mahasiswa  : ke int jml_mahasiswa;
 
 Bikin loop pake batas <jml_mahasiswa;
-loop buat input nama mahasiswa ke array string nama_mahasiswa[100].nama sama ke string matkul (pake struct str1 isinya string nama jadi kasih .nama nnti di akhir);
+loop buat input nama mahasiswa ke array string nama_mahasiswa[100].nama sama nama matkul ke string matkul (pake struct str1 isinya string nama jadi kasih .nama nnti di akhir);
 
 Bikin loop for 3 pake batas <jml_mahasiswa;
 loop 1 buat input nilai tugas ke array int tugas[100];
