@@ -1,0 +1,52 @@
+-2100018229 Shaluna Fasya Elmina
+-2100018234 Dini Rohmah
+-2100018249 Andri Pratama 
+
+Input
+Nama Dosen  : ke string nama pake getline
+Nama Matakuliah  : ke string matkul pake getline;
+Jumlah Mahasiswa  : ke int jml_mahasiswa;
+
+Bikin loop pake batas <jml_mahasiswa;
+loop buat input nama mahasiswa ke array string nama_mahasiswa[100].nama sama ke string matkul (pake struct str1 isinya string nama jadi kasih .nama nnti di akhir);
+
+Bikin loop for 3 pake batas <jml_mahasiswa;
+loop 1 buat input nilai tugas ke array int tugas[100];
+loop 2 buat input nilai uts ke array int uts[100];
+loop 3 buat input nilai uas ke array int uas[100];
+
+Proses
+Bikin loop 1 pake batas <jml mahasiswa;
+for(int i=0;i<jml_mahasiswa;i++){
+float total [i]=20/100*tugas[i]+35/100*uts[i]+45/100*uas[i];
+}
+
+loop buat jumlahin semua nilai per bagian
+for(int i=0;i<jml_mahasiswa;i++){
+int jumlah_tugas+=tugas[i];
+}
+
+for(int i=0;i<jml_mahasiswa;i++){
+int jumlah_uts+=uts[i];
+}
+for(int i=0;i<jml_mahasiswa;i++){
+int jumlah_uas+=uas[i];
+}
+
+cari rata
+float rata_tugas=(float)jumlah_tugas/jml_mahasiswa
+float rata_uts=(float)jumlah_tugas/jml_mahasiswa
+float rata_uas=(float)jumlah_tugas/jml_mahasiswa
+
+Output
+Nama Dosen  : nama
+Nama Matakuliah  : atkul;
+Jumlah Mahasiswa  : jml_mahasiswa;
+loop untuk nama,matkul,tugas,uts,uas,akhir.
+rata tugas
+rata uts
+rata uas
+
+
+
+SELESAI :)
