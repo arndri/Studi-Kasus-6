@@ -72,7 +72,6 @@ void mhs :: output(){
   cout<<"==============================="<<endl;
   cout<<"Daftar Nilai : "<<endl;
   cout<<"==============================="<<endl;
-  cout<<"Daftar Nilai UTS  : "<<endl;
   cout<<"||Nama    ||    Matkul||    Nilai Tugas||    Nilai UTS||    Nilai UAS||    Nilai Akhir||"<<endl;
   for(int i=0;i<jml_mahasiswa;i++){
     cout<<nama_mahasiswa[i].nama<<"          "<<matkul[i]<<"              "<<tugas[i]<<"              "<<uts[i]<<"              "<<uas[i]<<"              "<<total[i]<<endl;
