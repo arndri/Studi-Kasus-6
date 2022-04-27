@@ -3,8 +3,6 @@
 -2100018249 Andri Pratama 
 
 Input
-Nama Dosen  : ke string nama pake getline
-Nama Matakuliah  : ke string matkul pake getline;
 Jumlah Mahasiswa  : ke int jml_mahasiswa;
 
 Bikin loop pake batas <jml_mahasiswa;
@@ -39,8 +37,6 @@ float rata_uts=(float)jumlah_tugas/jml_mahasiswa
 float rata_uas=(float)jumlah_tugas/jml_mahasiswa
 
 Output
-Nama Dosen  : nama
-Nama Matakuliah  : atkul;
 Jumlah Mahasiswa  : jml_mahasiswa;
 loop untuk nama,matkul,tugas,uts,uas,akhir.
 rata tugas
